@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title> 
+    <link rel="stylesheet" href="assets/css/reset-style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="logo" src="./assets/img/logo-alura.png" alt="">
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="cuadro-izq">
+                <textarea id="cuadroTexto" class="cuadro-texto" name="" id="" placeholder="Ingrece texto aquí"></textarea>
+                <div class="cuadro-izq-footer">
+                    <img src="assets/img/exclamation-circle.png" alt="">
+                    <span class="izq-texto">Solo letras minúsculas y sin acentos</span>
+                    <div class="izq-botones">
+                        <button id="botonEncriptar" class="boton-encriptar">Encriptar</button>
+                        <button id="botonDesencriptar" class="boton-desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </div>
+            <div id="cuadroDerecha" class="cuadro-derecha">
+                <img id="muneco" class="muneco" src="assets/img/muneco.png" alt="personaje peliazul con una lupa en mano, mirando con curiosidad.">
+                <textarea id="mensajeFinal" class="mensaje-final" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="derechaTexto" class="derecha-texto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button id="botonCopiar" class="boton-copiar oculto">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <p>Bianca Diva Berrios Gálvez</p>
+        </div>
+        <div class="footer-tooltip">
+            <div>
+                <a href="https://www.linkedin.com/in/biancaberriosgalvez/" class="tooltip">
+                    <img class=tooltip-img src="./assets/img/linkedin.svg" alt="">
+                    <span class="tooltip-top">Bianca Diva</span>
+                </a>
+            </div>
+            <div>
+                <a href="https://www.behance.net/biancaberriosgalvez" class="tooltip">
+                    <img class=tooltip-img src="./assets/img/behance.svg" alt="">
+                    <span class="tooltip-top">Bianca</span>
+                </a>
+            </div>
+            <div>
+                <a href="https://github.com/Bel-Desk" class="tooltip">
+                    <img class=tooltip-img src="./assets/img/github.svg" alt="">
+                    <span class="tooltip-top">Bel-Desk</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- Hoja de JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
